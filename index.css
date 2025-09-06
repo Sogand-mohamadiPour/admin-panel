@@ -1,6 +1,6 @@
 /* Global background */
 body {
-    background-color: rgb(28, 44, 85);
+    background-color: rgb(33, 53, 85);
     font-family: Arial, sans-serif;
 }
 
@@ -37,7 +37,7 @@ body {
 
 /* Buttons */
 .btn-dark {
-    background-color: rgb(33, 53, 85);
+    background-color: rgb(11, 29, 58);
     border: none;
     border-radius: 8px;
     padding: 10px;
