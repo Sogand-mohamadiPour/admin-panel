@@ -30,7 +30,7 @@ A responsive **Admin Panel for institutes** built with **HTML, CSS, Bootstrap, a
 1. Clone the repository:  
    ```bash
    git clone https://github.com/Sogand-mohamadiPour/admin-panel.git
-   cd institute-admin-panel
+   cd admin-panel
 2. Open index.html in your browser
 
 ## 👩‍💻 Contribution
