@@ -4,6 +4,21 @@ A responsive **Admin Panel for institutes** built with **HTML, CSS, Bootstrap, a
 
 ---
 
+## ⚙️ How to Use
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Sogand-mohamadiPour/admin-panel.git
+   cd admin-panel
+   ```
+2. Install dependencies (including Bootstrap):
+   ```bash
+   npm install
+   ```
+3. Open index.html in your browser. Bootstrap is already included via node_modules.
+
+---
+
 ## ⚡ Features
 - Fully responsive layout using **Bootstrap**
 - Dynamic sidebar navigation
@@ -11,8 +26,8 @@ A responsive **Admin Panel for institutes** built with **HTML, CSS, Bootstrap, a
 - JavaScript-powered content updates and UI effects
 - Modular structure ready for backend connection
 
----
 
+   
 ## 🛠️ Tech Stack
 - **HTML & Bootstrap** – layout and responsive design
 - **CSS** – custom styling
@@ -20,18 +35,11 @@ A responsive **Admin Panel for institutes** built with **HTML, CSS, Bootstrap, a
 
 ---
 
+
 ## 📡 Live Demo
 👉 [View Demo](#) *(coming soon)*
 
 ---
-
-## ⚙️ How to Use
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Sogand-mohamadiPour/admin-panel.git
-   cd admin-panel
-2. Open index.html in your browser
 
 ## 👩‍💻 Contribution
 Pull requests are welcome! Suggestions for new JS techniques or UI improvements are appreciated.
