@@ -16,6 +16,11 @@ body {
     border-bottom-right-radius: 20px;
 }
 
+.sidebar .nav {
+    margin-top: 100px;
+    padding-left: 20px;
+}
+
 
 .sidebar .nav-link {
     color: #ffffff;
@@ -44,6 +49,19 @@ body {
     font-weight: 600;
 }
 
+.btn-dark strong {
+    font-size: 1rem;
+    /* course name */
+    color: #fff;
+}
+
+.btn-dark small {
+    font-size: 0.8rem;
+    color: #ccc;
+    padding-top: 20px;
+}
+
+
 .btn-dark:hover {
     background-color: #1b2836;
 }
@@ -57,4 +75,41 @@ body {
     .content {
         margin-left: 150px;
     }
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        width: 130px;
+        padding-top: 20px;
+    }
+
+    /* .sidebar .nav-link {
+        font-size: 0.75rem;
+        padding: 8px 12px;
+    } */
+
+    .content {
+        margin-left: 130px;
+        padding: 10px;
+    }
+
+    .row > .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .btn-dark {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    .btn-dark strong {
+        font-size: 1rem;
+    }
+
+    .btn-dark small {
+        font-size: 0.75rem;
+        padding-top: 10px;
+    }
+
 }

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Course Details</title>
+    <!-- Bootstrap CSS -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="icdl.css" />
+</head>
+
+<body>
+    <div class="d-flex">
+        <!-- Sidebar -->
+        <nav class="sidebar d-flex flex-column p-3">
+            <h4 class="text-white">Menu</h4>
+            <ul class="nav flex-column">
+                <li class="nav-item"><a href="../index.html" class="nav-link active">Courses</a></li>
+                <li class="nav-item"><a href="../teachers.html" class="nav-link">Teachers</a></li>
+                <li class="nav-item"><a href="../students.html" class="nav-link">Students</a></li>
+            </ul>
+        </nav>
+
+        <div class="content flex-grow-1">
+            <div class="d-flex justify-content-end mb-3">
+                <a href="../index.html" class="back-btn text-decoration-none">BACK</a>
+            </div>
+
+            <h5>Teacher Name: Mr. Salimi</h5>
+            <p>Course Duration: 65 hours</p>
+            <p>Number of Students: 30 <button class="btn-custom">View List</button></p>
+            <div class="row mt-4">
+                <!-- Left Column: Session Stats -->
+                <div class="col-md-6 mb-3">
+                    <div class="card stat-card mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Total Sessions</span>
+                            <div class="stat-number">13</div>
+                        </div>
+                    </div>
+                    <div class="card stat-card mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Sessions Completed</span>
+                            <div class="stat-number">4</div>
+                        </div>
+                    </div>
+                    <div class="card stat-card mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Sessions Remaining</span>
+                            <div class="stat-number">9</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Course Info -->
+                <div class="col-md-6 mb-3">
+                    <div class="card info-card mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Class Days & Time</span>
+                            <span>Saturday 15–20</span>
+                        </div>
+                    </div>
+                    <div class="card info-card mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Course Start Date</span>
+                            <span>2025/07/11</span>
+                        </div>
+                    </div>
+                    <div class="card info-card mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Course End Date</span>
+                            <span>2025/11/11</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ✅ Session List Section  -->
+            <div class="session-list mt-5">
+                <h5 class="text-white mb-3">Session List</h5>
+                <div class="table-responsive">
+                    <table class="table table-bordered align-middle text-center custom-table">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Class Status</th>
+                                <th>Instructor Notes</th>
+                                <th>Absentees List</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2025/07/11</td>
+                                <td>Held</td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>2025/07/18</td>
+                                <td>Held</td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>2025/02/12</td>
+                                <td>Cancelled</td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>2025/09/23</td>
+                                <td>Held</td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>2025/01/27</td>
+                                <td>Cancelled</td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>2025/06/05</td>
+                                <td>Cancelled</td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>2025/06/20</td>
+                                <td>Held</td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="icdl.js"></script>
+</body>
+
+</html>

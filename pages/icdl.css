@@ -1,0 +1,233 @@
+html {
+    height: 100%;
+    overflow-y: auto;
+}
+
+body {
+    background-color: rgb(33, 53, 85);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: rgb(11, 29, 58);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1000;
+}
+
+.sidebar .nav {
+    margin-top: 70px;
+}
+
+.sidebar h4 {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.sidebar .nav-link {
+    color: #ffffff;
+    padding: 12px 20px;
+    display: block;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+    background-color: #1b2836;
+    border-radius: 4px;
+}
+
+.content {
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+.back-btn {
+    background-color: #1c2d44;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #1c2d44;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.back-btn {
+    float: right;
+    margin-bottom: 20px;
+    background-color: #1c2d44;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.session-list h5 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Shared card styles */
+/* Shared card styles */
+.card {
+    background-color: #334d73;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Session stat cards */
+.stat-card {
+    background-color: #2f496e;
+}
+
+.stat-number {
+    background-color: #1c2d44;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+    min-width: 60px;
+    text-align: center;
+}
+
+/* Course info cards */
+.info-card {
+    background-color: #3e5879;
+}
+
+
+.table-responsive {
+    background-color: #1c2d44;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.table a.btn {
+    font-size: 0.8rem;
+    padding: 4px 10px;
+}
+
+/* Table container background */
+.table-responsive {
+    background-color: #1c2d44;
+    /* dark blue */
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* Custom table styling */
+.custom-table thead {
+    background-color: #3e5879;
+    color: #fff;
+}
+
+.custom-table th {
+    background-color: #3e5879;
+    color: #fff;
+}
+
+.custom-table tbody tr {
+    background-color: #2f496e;
+    color: #fff;
+}
+
+.custom-table th,
+.custom-table td {
+    border-color: #445b7c;
+}
+
+/* Buttons inside table */
+.custom-table a.btn {
+    background-color: #334d73;
+    color: white;
+    border: none;
+}
+
+/* responsive */
+@media (max-width: 992px) {
+    .sidebar {
+        width: 250px;
+    }
+
+    .content {
+        margin-left: 260px;
+        padding: 15px;
+
+    }
+
+    .back-btn {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .row>.col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .card {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+    .back-btn {
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+
+    .stat-number {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .sidebar .nav-link {
+        padding: 8px;
+    }
+
+    .content {
+        margin-left: 210px;
+        padding: 10px;
+    }
+}
