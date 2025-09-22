@@ -30,7 +30,9 @@
 
             <h5>Teacher Name: Mr. Salimi</h5>
             <p>Course Duration: 65 hours</p>
-            <p>Number of Students: 30 <button class="btn-custom">View List</button></p>
+            <p>Number of Students: 20
+                <button class="btn-custom" data-bs-toggle="modal" data-bs-target="#studentModal">View List</button>
+            </p>
             <div class="row mt-4">
                 <!-- Left Column: Session Stats -->
                 <div class="col-md-6 mb-3">
@@ -55,7 +57,7 @@
                 </div>
 
                 <!-- Right Column: Course Info -->
-                 <div class="col-md-6 mb-3">
+                <div class="col-md-6 mb-3">
                     <div class="card stat-card mb-3">
                         <div class="d-flex justify-content-between align-items-center">
                             <span>Class Days & Time</span>
@@ -94,47 +96,147 @@
                             <tr>
                                 <td>2025/07/11</td>
                                 <td>Held</td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#teachenNoteModal">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#absentModal">View</a></td>
                             </tr>
                             <tr>
                                 <td>2025/07/18</td>
                                 <td>Held</td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#teachenNoteModal">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#absentModal">View</a></td>
                             </tr>
                             <tr>
                                 <td>2025/02/12</td>
                                 <td>Cancelled</td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#teachenNoteModal">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#absentModal">View</a></td>
                             </tr>
                             <tr>
                                 <td>2025/09/23</td>
                                 <td>Held</td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#teachenNoteModal">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#absentModal">View</a></td>
                             </tr>
                             <tr>
                                 <td>2025/01/27</td>
                                 <td>Cancelled</td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#teachenNoteModal">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#absentModal">View</a></td>
                             </tr>
                             <tr>
                                 <td>2025/06/05</td>
                                 <td>Cancelled</td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#teachenNoteModal">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#absentModal">View</a></td>
                             </tr>
                             <tr>
                                 <td>2025/06/20</td>
                                 <td>Held</td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
-                                <td><a href="#" class="btn btn-sm btn-outline-light">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#teachenNoteModal">View</a></td>
+                                <td><a href="#" class="btn btn-sm btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#absentModal">View</a></td>
                             </tr>
                         </tbody>
                     </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!----------- number of students modal -------------->
+    <!-- Modal -->
+    <div class="modal fade" id="studentModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <h5 class="modal-title">STUDENT NAMES</h5>
+                        <div class="divider"></div>
+                    </div>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <ol class="student-list">
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                        <li>Ali Salimi</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------- absent list modal --------------- -->
+    <div class="modal fade" id="absentModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Absent List</h5>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="list-box">
+                        <ol>
+                            <li>Ali Salimi</li>
+                            <li>Ali Salimi</li>
+                            <li>Ali Salimi</li>
+                            <li>Ali Salimi</li>
+                            <li>Ali Salimi</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------teacher note modal ------------- -->
+    <div class="modal fade" id="teachenNoteModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Teacher's Note</h5>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="list-box">
+                        <textarea>
+
+                        </textarea>
+                    </div>
                 </div>
             </div>
         </div>
