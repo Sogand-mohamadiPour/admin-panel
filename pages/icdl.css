@@ -376,6 +376,25 @@ body {
 }
 
 
+/* homework styles */
+
+.homework-card {
+    background-color: #d6d9f5;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    height: 100%;
+}
+
+.homework-card p {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+
+
+
 /* responsiv for small screens */
 @media (max-width: 576px) {
     .sidebar {

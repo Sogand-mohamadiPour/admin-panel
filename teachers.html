@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Teachers</title>
   <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="teachers.css" />
 </head>
 
 <body>
@@ -20,11 +20,81 @@
     </nav>
 
     <div class="content flex-grow-1 p-4 text-white">
-      <h2>Teachers Page</h2>
-      <p>Content will go here later.</p>
+      <div class="container py-4">
+
+        <!-- Card 1 -->
+        <div class="user-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="User">
+          <div class="user-info">
+            <h5>Mr. Ahmadi</h5>
+            <p>Code: 442255</p>
+            <p>Email: s.ahmadi@gmail.com</p>
+          </div>
+          <button class="btn-course" data-bs-toggle="modal" data-bs-target="#activeCoursesModal">Active Courses</button>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="user-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="User">
+          <div class="user-info">
+            <h5>Mr. Ahmadi</h5>
+            <p>Code: 442255</p>
+            <p>Email: s.ahmadi@gmail.com</p>
+          </div>
+          <button class="btn-course" data-bs-toggle="modal" data-bs-target="#activeCoursesModal">Active Courses</button>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="user-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="User">
+          <div class="user-info">
+            <h5>Mr. Ahmadi</h5>
+            <p>Code: 442255</p>
+            <p>Email: s.ahmadi@gmail.com</p>
+          </div>
+          <button class="btn-course" data-bs-toggle="modal" data-bs-target="#activeCoursesModal">Active Courses</button>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="user-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="User">
+          <div class="user-info">
+            <h5>Mr. Ahmadi</h5>
+            <p>Code: 442255</p>
+            <p>Email: s.ahmadi@gmail.com</p>
+          </div>
+          <button class="btn-course" data-bs-toggle="modal" data-bs-target="#activeCoursesModal">Active Courses</button>
+        </div>
+
+      </div>
     </div>
   </div>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+  <!-- --------------- active Courses Modal ----------------- -->
+  <div class="modal fade" id="activeCoursesModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Active courses</h5>
+          <button type="button" class="btn-close-custom" data-bs-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body text-center">
+          <div class="list-box">
+            <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Tailwind</li>
+              <li>JS</li>
+              <li>React</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="index.js"></script>
 </body>
 
