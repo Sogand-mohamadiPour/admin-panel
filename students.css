@@ -133,3 +133,83 @@ body {
         padding: 10px;
     }
 }
+
+/* extra small devices: under 550px */
+@media (max-width: 550px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .sidebar {
+        width: 96px;
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 14px;
+    }
+
+    .sidebar .nav {
+        margin-top: 60px;
+        padding-left: 10px;
+    }
+
+    .sidebar .nav-link {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .content {
+        margin-left: 96px;
+        padding: 12px;
+    }
+
+    .student-card {
+        max-width: 100%;
+        margin: 12px auto;
+        padding: 14px;
+        border-radius: 12px;
+    }
+
+    .student-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .student-header img {
+        width: 64px;
+        height: 64px;
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+
+    .student-info h5 {
+        font-size: 16px;
+    }
+
+    .student-info p {
+        font-size: 13px;
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
+
+    .dropdown-section {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    .dropdown-content {
+        padding: 8px;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    .table-custom th,
+    .table-custom td {
+        padding: 8px;
+        font-size: 13px;
+        white-space: normal;
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
+}
