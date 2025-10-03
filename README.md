@@ -11,11 +11,7 @@ A responsive **Admin Panel for institutes** built with **HTML, CSS, Bootstrap, a
    git clone https://github.com/Sogand-mohamadiPour/admin-panel.git
    cd admin-panel
    ```
-2. Install dependencies (including Bootstrap):
-   ```bash
-   npm install
-   ```
-3. Open index.html in your browser. Bootstrap is already included via node_modules.
+2. Open index.html in your browser.
 
 ---
 
