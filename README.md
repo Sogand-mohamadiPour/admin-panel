@@ -37,7 +37,7 @@ A responsive **Admin Panel for institutes** built with **HTML, CSS, Bootstrap, a
 
 
 ## 📡 Live Demo
-👉 [View Demo](#) *(coming soon)*
+👉 [View Demo]([(https://sogand-mohamadipour.github.io/admin-panel/)])
 
 ---
 
