@@ -1,4 +1,6 @@
 # 🏫 Institute Admin Panel
+# full stack project on [Institute Admin Panel](https://github.com/pooyansaeedinia/institute-panel)
+collaborating with [Pooyan](https://github.com/pooyansaeedinia)
 
 A responsive **Admin Panel for institutes** built with **HTML, CSS, Bootstrap, and JavaScript**. The project demonstrates different JavaScript techniques for dynamic content, interactive UI components, and smooth user experience. It is structured to be easily extendable with backend integration in the future.
 
