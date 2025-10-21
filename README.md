@@ -42,5 +42,3 @@ A responsive **Admin Panel for institutes** built with **HTML, CSS, Bootstrap, a
 ## 👩‍💻 Contribution
 Pull requests are welcome! Suggestions for new JS techniques or UI improvements are appreciated.
 
-## 📜 License
-MIT License
